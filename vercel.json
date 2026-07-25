@@ -2,11 +2,6 @@
   "version": 2,
   "buildCommand": "npm install",
   "outputDirectory": "frontend",
-  "functions": {
-    "api/**/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  },
   "rewrites": [
     { "source": "/api/health",          "destination": "/api/health" },
     { "source": "/api/inquiry",         "destination": "/api/inquiry" },
