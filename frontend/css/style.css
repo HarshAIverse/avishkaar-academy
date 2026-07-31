@@ -144,6 +144,18 @@ body.has-notices .route-progress{top:36px}
 .btn--block{width:100%}
 .btn--whatsapp{background:var(--whatsapp);color:#fff;margin-top:22px;box-shadow:0 12px 26px -12px rgba(37,211,102,.55)}
 .btn--whatsapp:hover{transform:translateY(-2px)}
+.btn--admin{
+  border-color:rgba(201,166,70,.45);color:var(--gold-light);
+  background:rgba(201,166,70,.08);letter-spacing:.02em;
+}
+.btn--admin:hover{
+  background:rgba(201,166,70,.16);
+  border-color:var(--gold);
+  color:#fff;
+  transform:translateY(-2px);
+  box-shadow:0 8px 20px -8px rgba(201,166,70,.35);
+}
+
 
 /* =================== HERO =================== */
 .hero{
